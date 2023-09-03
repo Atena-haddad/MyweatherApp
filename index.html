@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="src/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <h1>
+        Open Weather App
+      </h1>
+      <form>
+        <input type="text" id="search" name="fname" placeholder="please enter a city"><br>
+        <input type="submit" value="search" id="searchb">
+        <input type="submit" value="current" id="currentb">
+      </form>
+      <div class="row">
+        <div class="col-sm">
+          <div id="city-name"></div>
+          <div id="city-temp"></div>
+          <div id="city-weather"></div>
+          <div id="time"></div>
+        </div>
+        <div class="col-sm">
+          <div id="city-humidity"></div>
+          <div id="city-wind" ></div>
+
+        </div>
+      </div>
+    </div>
+ </div>
+</div>
+<script src="src/app.js"></script>
+</body>
+</html>
