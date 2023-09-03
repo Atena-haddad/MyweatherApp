@@ -1,6 +1,6 @@
 body{
   font-family: monospace;
-  background-color: #ffb286;
+  background-color: #e0ffcd;;
 }
 
 
@@ -11,7 +11,7 @@ h1,form,div {
 }
 
 
-#card-body {
+.card {
   background-color: #e0ffcd;
 }
 #search {
